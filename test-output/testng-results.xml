@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="50" started-at="2021-06-14T08:32:44 UTC" finished-at="2021-06-14T08:32:44 UTC">
+    <groups>
+      <group name="Login">
+        <method signature="TestLogin.testLoginInValid()[pri:0, instance:com.simplilearn.tdd.test.TestLogin@5f282abb]" name="testLoginInValid" class="com.simplilearn.tdd.test.TestLogin"/>
+        <method signature="TestLogin.testLoginValid()[pri:0, instance:com.simplilearn.tdd.test.TestLogin@5f282abb]" name="testLoginValid" class="com.simplilearn.tdd.test.TestLogin"/>
+      </group> <!-- Login -->
+    </groups>
+    <test name="Test" duration-ms="50" started-at="2021-06-14T08:32:44 UTC" finished-at="2021-06-14T08:32:44 UTC">
+      <class name="com.simplilearn.tdd.test.TestLogin">
+        <test-method status="PASS" signature="testLoginInValid()[pri:0, instance:com.simplilearn.tdd.test.TestLogin@5f282abb]" name="testLoginInValid" duration-ms="6" started-at="2021-06-14T08:32:44 UTC" finished-at="2021-06-14T08:32:44 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginInValid -->
+        <test-method status="PASS" signature="testLoginValid()[pri:0, instance:com.simplilearn.tdd.test.TestLogin@5f282abb]" name="testLoginValid" duration-ms="1" started-at="2021-06-14T08:32:44 UTC" finished-at="2021-06-14T08:32:44 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginValid -->
+      </class> <!-- com.simplilearn.tdd.test.TestLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
